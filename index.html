@@ -292,21 +292,50 @@ header {
   border-radius: 8px;
 }
 
+.entrance-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.entrance-social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.entrance-social-icon:hover {
+  transform: scale(1.1);
+}
 
 
 
 
   </style>
 </head>
-
+<link rel="icon" type="image/png" href="favicon.png">
 <body>
 
 <!-- Entrance Page -->
 <div id="entrance">
-  <h1>In Loving Memory of Chuck</h1>
-  <p class="entrance-dates">04/11/2019 – 04/15/2025</p>
-  <button class="enter-button" onclick="enterSite()">Enter</button>
-  <div class="creator-credit">Created by Mark Anthony</div>
+  <h1>In loving memory of Chuck</h1>
+<p class="entrance-dates">04/11/2019 – 04/15/2025</p>
+
+<div class="entrance-socials">
+  <a href="https://www.instagram.com/prairiechuck_/" target="_blank">
+    <img src="insta.png" alt="Instagram" class="entrance-social-icon">
+  </a>
+  <a href="https://www.gofundme.com/f/aid-chucks-heart-and-dental-recovery" target="_blank">
+    <img src="go.png" alt="GoFundMe" class="entrance-social-icon">
+  </a>
+  <a href="https://dexscreener.com/" target="_blank">
+    <img src="dex.png" alt="Dex Screener" class="entrance-social-icon">
+  </a>
+</div>
+
+<button class="enter-button" onclick="enterSite()">Enter</button>
 </div>
 
 
@@ -350,7 +379,7 @@ header {
           <a href="https://www.gofundme.com/f/aid-chucks-heart-and-dental-recovery?attribution_id=sl:b0983e9e-96a0-4335-be6a-6aa508f4d8b7&lang=en_US&utm_campaign=fp_sharesheet&utm_medium=customer&utm_source=instagram_story" target="_blank">
             <img src="go.png" alt="GoFundMe" class="social-image-button">
           </a>
-          <a href="https://dexscreener.com/solana/" target="_blank">
+          <a href="https://dexscreener.com/solana/fart" target="_blank">
             <img src="dex.png" alt="Dex Screener" class="social-image-button">
           </a>
         </div>
